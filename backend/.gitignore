@@ -1,0 +1,36 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+*.test
+*.out
+
+# Go module files
+vendor/
+go.sum
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/bin/
+/dist/
